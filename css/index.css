@@ -1,0 +1,121 @@
+.card-education{
+    border-top: 5px solid #446DFF;
+    border-bottom: 5px solid #446DFF;
+    border-radius: 35px;
+}
+
+.card-education .card-text{
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.card-education .card-body{
+    padding: 20px 0 0 0;
+}
+
+.card-education .card-img-top{
+    padding:10px 20px 20px 20px;
+}
+.btn-more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn-more a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 160px;
+    height: 44px;
+    border-radius: 54px;
+    color: white;
+    background-color: #446DFF;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn-more a:hover{
+    color: white;
+}
+.bg-bookmark{
+    background-image: url("../images/bookmark.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+.bg-bookmark img{
+    width: 100%;
+}
+
+.bg-bookmark .teacher-decs p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.years-steps{
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.years-steps p{
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 0;
+    text-align: left;
+}
+.years-steps p span{
+    display: block;
+    margin-bottom: 10px;
+}
+.bg-bookmark .second-teacher{
+    background-image: url("../images/elements-ui.svg");
+    background-repeat: no-repeat;
+    background-position: 40% 40%;
+}
+
+.bg-bookmark .first-teacher{
+    background-image: url(../images/elements-ui-2.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 30%;
+}
+.form-section{
+    position: relative;
+}
+.form-section:after{
+    position: absolute;
+    content: "";
+    background-image: url(../images/Waves.svg);
+    background-repeat: repeat;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 18px;
+    background-size: contain;
+}
+.steps-cards .card{
+    height: 100%;
+}
+
+.steps-cards .card .card-title{
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 1rem 2rem 0 2rem;
+}
+
+
+.steps-cards .card .card-body{
+   padding-top: 1rem;
+    font-size: 17px;
+}
