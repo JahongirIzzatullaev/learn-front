@@ -24,15 +24,13 @@
     <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
 
-<!-- ========== HEADER ========== -->
 <header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-white">
-    <div class="container">
+    <div class="container-fluid px-5 py-2">
         <nav class="js-mega-menu navbar-nav-wrap">
             <!-- Default Logo -->
-            <a class="navbar-brand" href="#" aria-label="Front">
+            <a class="navbar-brand" href="index.html" aria-label="Front">
                 <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <!-- End Default Logo -->
@@ -47,26 +45,10 @@
           <i class="bi-x"></i>
         </span>
             </button>
-            <!-- End Toggler -->
-
-            <!-- Collapse -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <!-- Company -->
-                    <li class="hs-has-sub-menu nav-item">
-                        <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#"
-                           role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-
-                        <!-- Mega Menu -->
-                        <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu"
-                             style="min-width: 14rem;">
-                            <a class="dropdown-item" href="#">About school</a>
-                            <a class="dropdown-item" href="#">
-                                Teachers
-                            </a>
-                            <a class="dropdown-item" href="#">Photo</a>
-                        </div>
-                        <!-- End Mega Menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About school</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="admission.html">Admission</a>
@@ -75,30 +57,30 @@
                         <a class="nav-link" href="#">Price list</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photo</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contacts</a>
                     </li>
-                    <!-- End Landings -->
-
-
-                    <!-- Button -->
                     <li class="nav-item">
                         <a class="btn btn-primary btn-transition"
                            href="#"
                            target="_blank">Personal Area</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fs-4" href="#">+998 94 745 09 42 <i class="bi-telegram text-primary"></i> <i class="bi-whatsapp text-success"></i></a>
+                    <li class="nav-item social-contacts">
+                        <a class="nav-link text-dark fs-4" href="#">+998 94 745 09 42</a>
+                        <a href=""><i class="bi-telegram text-primary"></i></a>
+                        <a href=""><i class="bi-whatsapp text-success"></i></a>
                     </li>
-                    <!-- End Button -->
                 </ul>
             </div>
             <!-- End Collapse -->
         </nav>
     </div>
 </header>
-<!-- ========== END HEADER ========== -->
-
 
 <!-- Hero -->
 <div class="position-relative bg-img-start" style="background-image: url(./assets/svg/components/card-11.svg);">
