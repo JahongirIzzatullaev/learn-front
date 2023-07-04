@@ -129,5 +129,98 @@
 }
 .bi-whatsapp{
      margin-left: 10px;
-
  }
+.swiper-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.swiper-navigation .swiper-button-disabled{
+    opacity: 0.5;
+}
+.swiper-navigation .js-swiper-freemode-button-prev img{
+    transform: rotate(180deg);
+}
+.swiper-navigation .js-swiper-freemode-button-next{
+    margin-left: 10px;
+}
+.swiper-slide img{
+    margin-bottom: 20px;
+}
+.swiper-slide .slide-body p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+.swiper-slide .slide-body span{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    color: black;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+}
+.social-media i{
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 10px;
+}
+.first-rectangle,.second-rectangle{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+.first-rectangle span,.second-rectangle span{
+    position: relative;
+    z-index: 1;
+}
+.first-rectangle{
+    padding: 0 0 0 30px;
+    font-size: 30px;
+}
+.first-rectangle:before{
+    background-image: url("../images/first-rectangle.svg");
+}
+.second-rectangle{
+    font-size: 20px;
+    padding: 0 50px 0 130px;
+}
+.second-rectangle:before{
+    background-image: url("../images/second-rectangle.svg");
+}
+.first-rectangle:before, .second-rectangle:before{
+    position: absolute;
+    content: "";
+    height: 200px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.transform-rotate-n180deg .first-rectangle:before{
+    transform: rotate(180deg);
+}
+.transform-rotate-n180deg .second-rectangle:before{
+    transform: rotate(180deg);
+}
+.transform-rotate-n180deg .first-rectangle{
+    text-align: right;
+    padding: 0 30px 0 0;
+    justify-content: flex-end;
+}
+.transform-rotate-n180deg .second-rectangle{
+    padding: 0 120px 0 100px;
+
+}
