@@ -222,5 +222,86 @@
 }
 .transform-rotate-n180deg .second-rectangle{
     padding: 0 120px 0 100px;
+}
+.skills-cards{
+    background-image: url("../images/bookmark-blue.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+}
+.skills-cards .card .card-body{
+    padding: 50px 50px;
+}
+.skills-cards .card .card-body .card-text{
+    color: #1e2022;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.skills-cards .card{
+    border-top: 5px solid #446DFF;
+    border-bottom: 5px solid #446DFF;
+    border-radius: 35px
+}
+.includes-course{
+ position: relative;
+}
+.includes-course:before{
+    position: absolute;
+    content: "";
+    width:180px;
+    height:180px;
+    background-image: url("../images/math-operations.svg");
+    bottom: 50px;
+    right: 50px;
+    background-repeat: no-repeat;
+}
+.includes-course:after{
+    position: absolute;
+    content: "";
+    width:238px;
+    height:228px;
+    background-image: url("../images/star.svg");
+    top: 50px;
+    right: 50px;
+    background-repeat: no-repeat;
+}
+.includes-course .step-icon-dark{
+ background-color: #446DFF;
+}
+.includes-course .step-content h4{
+    font-weight: 400;
+    line-height: 26px;
+}
 
+.includes-course-music{
+    position: relative;
+}
+.includes-course-music:before{
+    position: absolute;
+    content: "";
+    width:638px;
+    height:540px;
+    background-image: url("../images/bg-icons-music.svg");
+    bottom: 0;
+    right: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.includes-course-music:after{
+    position: absolute;
+    content: "";
+    width:238px;
+    height:228px;
+    background-image: url("../images/star.svg");
+    top: 50px;
+    right: 50px;
+    background-repeat: no-repeat;
+}
+.includes-course-music .step-icon-dark{
+    background-color: #446DFF;
+}
+.includes-course-music .step-content h4{
+    font-weight: 400;
+    line-height: 26px;
 }
