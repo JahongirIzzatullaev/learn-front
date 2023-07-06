@@ -305,3 +305,101 @@
     font-weight: 400;
     line-height: 26px;
 }
+.english-course{
+    margin-top: 70px;
+}
+.english-course .first-rectangle, .english-course .hexagonal, .english-course .second-rectangle{
+    height: 250px;
+}
+.english-course .first-rectangle{
+    padding: 0 30px 0 25px;
+}
+.english-course .first-rectangle span{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.english-course .hexagonal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200px;
+}
+.english-course .hexagonal span{
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.english-course .hexagonal:before{
+    position: absolute;
+    content: "";
+    height: 250px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/hexagonal.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.english-course .hexagonal:after{
+    position: absolute;
+    content: "";
+    width: 97px;
+    height: 65px;
+    top: -28px;
+    right: -30px;
+    background-image: url("../images/uk.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.english-course .first-rectangle:before, .english-course .first-rectangle:before{
+    height: 250px;
+}
+.english-course .third-rectangle{
+    position: relative;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.english-course .third-rectangle span{
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 40px;
+    color: white;
+}
+
+.english-course .third-rectangle:before{
+    position: absolute;
+    content: "";
+    height: 320px;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("../images/third-rectangle.svg");
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+.english-course .steable-head{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0;
+    color: #1e2022;
+}

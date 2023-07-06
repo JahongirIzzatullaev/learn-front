@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Title -->
-    <title>Learning center</title>
+    <title>English language</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="./favicon.ico">
@@ -22,16 +22,16 @@
     <link rel="stylesheet" href="./assets/css/snippets.min.css">
     <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 
-<!-- ========== HEADER ========== -->
 <header id="header" class="navbar navbar-expand-lg navbar-end navbar-sticky-top navbar-light bg-white">
-    <div class="container">
+    <div class="container-fluid px-5 py-2">
         <nav class="js-mega-menu navbar-nav-wrap">
             <!-- Default Logo -->
-            <a class="navbar-brand" href="#" aria-label="Front">
+            <a class="navbar-brand" href="index.html" aria-label="Front">
                 <img class="navbar-brand-logo" src="./assets/svg/logos/logo.svg" alt="Logo">
             </a>
             <!-- End Default Logo -->
@@ -46,242 +46,173 @@
           <i class="bi-x"></i>
         </span>
             </button>
-            <!-- End Toggler -->
-
-            <!-- Collapse -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-                    <!-- Company -->
-                    <li class="hs-has-sub-menu nav-item">
-                        <a id="companyMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle" href="#"
-                           role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-
-                        <!-- Mega Menu -->
-                        <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu"
-                             style="min-width: 14rem;">
-                            <a class="dropdown-item" href="#">About school</a>
-                            <a class="dropdown-item" href="#">
-                                Teachers
-                            </a>
-                            <a class="dropdown-item" href="#">Photo</a>
-                        </div>
-                        <!-- End Mega Menu -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About school</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Admission</a>
+                        <a class="nav-link" href="admission.html">Admission</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="price-list.html">Price list</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="teachers.html">Teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photo</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="contacts.html">Contacts</a>
                     </li>
-                    <!-- End Landings -->
-
-
-                    <!-- Button -->
                     <li class="nav-item">
                         <a class="btn btn-primary btn-transition"
                            href="#"
                            target="_blank">Personal Area</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fs-4" href="#">+998 94 745 09 42 <i
-                                class="bi-telegram text-primary"></i> <i class="bi-whatsapp text-success"></i></a>
+                    <li class="nav-item social-contacts">
+                        <a class="nav-link text-dark fs-4" href="#">+998 94 745 09 42</a>
+                        <a href=""><i class="bi-telegram text-primary"></i></a>
+                        <a href=""><i class="bi-whatsapp text-success"></i></a>
                     </li>
-                    <!-- End Button -->
                 </ul>
             </div>
             <!-- End Collapse -->
         </nav>
     </div>
 </header>
-<!-- ========== END HEADER ========== -->
 
-<!-- Hero -->
-<div class="bg-light">
+<div class="bg-light-blue">
     <div class="container content-space-2 mt-4">
         <div class="row justify-content-lg-between align-items-md-center">
             <div class="col-md-6 mb-5 mb-md-0">
-                <div class="mb-3">
+                <div class="mb-4 mt-8">
                     <h1>English for preschoolers</h1>
                     <p class="text-black">Game lessons with a teacher for children from 4 to 12 years old on an
                         interactive online platform</p>
                 </div>
-                <div class="d-grid d-sm-flex gap-3">
+                <div class="d-grid d-sm-flex gap-3 mb-4">
                     <a class="btn btn-primary btn-transition" href="#">Sign up for a lesson</a>
                 </div>
                 <p class="text-muted mt-2">At the trial lesson, we will get to know each other, play, determine the
                     level of knowledge of the child, select the appropriate course for him, and also show how school is
                     taught in a fun and relaxed atmosphere</p>
             </div>
-            <!-- End Col -->
-
-
             <div class="col-md-5">
                 <img class="img-fluid" src="./assets/svg/illustrations/oc-looking-for-answers.svg"
                      alt="Image Description">
             </div>
-            <!-- End Col -->
         </div>
-        <!-- End Row -->
     </div>
 </div>
-<!-- End Hero -->
 
-<!-- Card Grid -->
-<div class="container mt-8 mb-8">
-    <!-- Heading -->
-    <div class="w-md-75 w-lg-50 mb-5">
-        <h2 class="text-start">English for children for any purpose</h2>
+<section class="skills-cards">
+    <div class="container py-8">
+        <!-- Heading -->
+        <div class="w-md-75 w-lg-50 mb-5 mt-3">
+            <h2 class="text-start">English for children for any purpose</h2>
+        </div>
+        <div class="row gx-10">
+            <div class="col-lg-6 mt-4">
+                <div class="card h-100 overflow-hidden">
+                    <div class="card-body">
+                        <p class="card-text">
+                            We help to learn <br>
+                            English from scratch and love the subject.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-4">
+                <div class="card h-100 overflow-hidden">
+                    <div class="card-body">
+                        <p class="card-text">
+                            We prepare for the test, teach you how to do homework on your own, help you improve your grade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-10">
+                <div class="card h-100 overflow-hidden">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Prepare for language learning at school, fill gaps and catch up.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mt-10">
+                <div class="card h-100 overflow-hidden">
+                    <div class="card-body">
+                        <p class="card-text">
+                            We go beyond the school curriculum, we teach to understand the speech of native speakers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- End Heading -->
-    <div class="row">
-        <div class="col-lg-6 mb-3 mb-lg-0 mt-4">
-            <!-- Card -->
-            <div class="card h-100 overflow-hidden">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="card-body">
-                            <p class="card-text">
-                                We help to learn English from scratch and love the subject.</p>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-        <div class="col-lg-6 mb-3 mb-lg-0 mt-4">
-            <!-- Card -->
-            <div class="card h-100 overflow-hidden">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="card-body">
-                            <p class="card-text">
-                                We prepare for the test, teach you how to do homework on your own, help you improve your
-                                grade.</p>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-        <div class="col-lg-6 mb-3 mb-lg-0 mt-4">
-            <!-- Card -->
-            <div class="card h-100 overflow-hidden">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Prepare for language learning at school, fill gaps and catch up.</p>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-        <div class="col-lg-6 mb-3 mb-lg-0 mt-4">
-            <!-- Card -->
-            <div class="card h-100 overflow-hidden">
-                <div class="row align-items-center">
-                    <div class="col-12">
-                        <div class="card-body">
-                            <p class="card-text">
-                                We go beyond the school curriculum, we teach to understand the speech of native
-                                speakers.</p>
-                        </div>
-                    </div>
-                    <!-- End Col -->
-                </div>
-                <!-- End Row -->
-            </div>
-            <!-- End Card -->
-        </div>
-        <!-- End Col -->
-    </div>
-    <!-- End Row -->
-</div>
-<!-- End Card Grid -->
+</section>
 
-<!-- Hero -->
-<div class="bg-light">
-    <div class="container content-space-2 mt-4">
-        <div class="row justify-content-lg-between align-items-md-center">
-            <div class="col-md-8 mb-8 mb-md-0">
-                <div class="mb-3">
-                    <h1>What is included in the course.</h1>
-                    <p class="text-black">What is included in the course.
-                        All you need is a computer or tablet to practice.
-                        The program is selected individually, taking into account the age, level of knowledge and needs
-                        of the child.</p>
+<section class="includes-course-music english-course">
+    <div class="bg-light-blue">
+        <div class="container content-space-2 mt-4">
+            <div class="row justify-content-lg-between align-items-md-center">
+                <div class="col-md-8 mb-8 mb-md-0">
+                    <div class="mb-3">
+                        <h1 class="mb-4">What is included in the course.</h1>
+                        <p class="text-black fs-4">
+                            All you need is a computer or tablet to practice.
+                            The program is selected individually, taking into account the age, level of knowledge and needs
+                            of the child.
+                        </p>
+                    </div>
                 </div>
-
             </div>
-            <!-- End Col -->
-            <!-- Step -->
-            <ul class="mt-4 step step-dashed step-timeline-md">
-                <li class="step-item">
-                    <div class="step-content-wrapper align-items-center">
-                        <span class="step-icon step-icon-soft-primary step-icon-pseudo"></span>
-                        <div class="step-content">
-                            <p class="step-text">Learning the alphabet, starting to speak English, mastering the correct
-                                pronunciation, practicing reading</p>
-                        </div>
+            <div class="row content-space-3">
+                <div class="col-md-4 h-100">
+                    <div class="first-rectangle">
+                       <span>
+                           Learning the alphabet, starting to speak English, mastering the correct pronunciation, practicing reading
+                       </span>
                     </div>
-                </li>
-                <li class="step-item">
-                    <div class="step-content-wrapper align-items-center">
-                        <span class="step-icon step-icon-soft-primary step-icon-pseudo"></span>
-                        <div class="step-content">
-                            <p class="step-text">Learning English Grammar</p>
-                        </div>
+                </div>
+                <div class="col-md-4 h-100">
+                    <div class="hexagonal">
+                        <span>
+                        Learning English Grammar
+                        </span>
                     </div>
-                </li>
-                <li class="step-item">
-                    <div class="step-content-wrapper align-items-center">
-                        <span class="step-icon step-icon-soft-primary step-icon-pseudo"></span>
-                        <div class="step-content">
-                            <p class="step-text">We increase vocabulary, train speaking and listening</p>
-                        </div>
+                </div>
+                <div class="col-md-4 h-100 transform-rotate-n180deg">
+                    <div class="first-rectangle">
+                       <span>
+                           We increase vocabulary, train speaking and listening
+                       </span>
                     </div>
-                </li>
-                <li class="step-item">
-                    <div class="step-content-wrapper align-items-center">
-                        <span class="step-icon step-icon-soft-primary step-icon-pseudo"></span>
-                        <div class="step-content">
-                            <p class="step-text">We create a stable system in the head, delve into grammar</p>
-                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 h-100 pt-5">
+                    <h2 class="steable-head">
+                        We create a stable system in the head, delve into grammar
+                    </h2>
+                </div>
+                <div class="col-md-4 h-100">
+                    <div class="third-rectangle">
+                       <span>
+                           We fix all the material in practice: we will speak, listen, write, read - we will approach the classes in a volume and carefully
+                       </span>
                     </div>
-                </li>
-                <li class="step-item">
-                    <div class="step-content-wrapper align-items-center">
-                        <span class="step-icon step-icon-soft-primary step-icon-pseudo"></span>
-                        <div class="step-content">
-                            <p class="step-text">We fix all the material in practice: we will speak, listen, write, read
-                                - we will approach the classes in a volume and carefully</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <!-- End Step -->
-            <div class="d-grid d-sm-flex gap-3">
-                <a class="btn btn-primary btn-transition" href="#">Leave a request</a>
+                </div>
+                <div class="col-md-4 h-100 pt-5" style="text-align: right">
+                    <a class="btn btn-primary btn-transition" href="#">Leave a request</a>
+                </div>
             </div>
         </div>
-        <!-- End Row -->
     </div>
-</div>
-<!-- End Hero -->
+</section>
 
 <!-- ========== FOOTER ========== -->
 <footer class="bg-dark" style="background-image: url(./assets/svg/components/wave-pattern-light.svg);">
