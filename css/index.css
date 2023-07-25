@@ -403,3 +403,7 @@
     letter-spacing: 0;
     color: #1e2022;
 }
+
+.navbar-brand-logo{
+    max-width: 13rem !important;
+}
