@@ -23,6 +23,9 @@
 .card-education .card-img-top{
     padding:10px 20px 20px 20px;
 }
+.card-education .card-footer{
+    padding: 0 25px 20px 25px !important;
+}
 .btn-more{
     display: flex;
     align-items: center;

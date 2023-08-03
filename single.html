@@ -9,7 +9,7 @@
     <title>Learning center</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="shortcut icon" href="./images/favicon.ico">
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./assets/css/snippets.min.css">
     <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -59,7 +60,7 @@
                         <!-- Mega Menu -->
                         <div class="hs-sub-menu dropdown-menu" aria-labelledby="companyMegaMenu"
                              style="min-width: 14rem;">
-                            <a class="dropdown-item" href="#">About school</a>
+                            <a class="dropdown-item" href="#">About us</a>
                             <a class="dropdown-item" href="#">
                                 Teachers
                             </a>
@@ -82,8 +83,10 @@
                     <!-- Button -->
                     <li class="nav-item">
                         <a class="btn btn-primary btn-transition"
-                           href="#"
-                           target="_blank">Personal Area</a>
+                           data-bs-toggle="modal"
+                           data-bs-target="#connectWithUs">
+                            Leave a request
+                        </a>
                     </li>
 
                     <li class="nav-item">
@@ -111,7 +114,11 @@
                         platform</p>
                 </div>
                 <div class="d-grid d-sm-flex gap-3">
-                    <a class="btn btn-primary btn-transition" href="#">Leave a request</a>
+                    <a class="btn btn-primary btn-transition"
+                       data-bs-toggle="modal"
+                       data-bs-target="#connectWithUs">
+                        Leave a request
+                    </a>
                 </div>
                 <p class="text-muted mt-2">At the trial lesson, we will get to know each other, play, determine the
                     level of knowledge of the
@@ -293,7 +300,11 @@
             </ul>
             <!-- End Step -->
             <div class="d-grid d-sm-flex gap-3">
-                <a class="btn btn-primary btn-transition" href="#">Leave a request</a>
+                <a class="btn btn-primary btn-transition"
+                   data-bs-toggle="modal"
+                   data-bs-target="#connectWithUs">
+                    Leave a request
+                </a>
             </div>
         </div>
         <!-- End Row -->
@@ -377,6 +388,114 @@
     </div>
 </footer>
 <!-- ========== END FOOTER ========== -->
+<div class="modal fade" id="connectWithUs"
+     data-bs-backdrop="static" aria-labelledby="staticBackdropLabel" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <!-- Header -->
+            <div class="modal-close">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <!-- End Header -->
+
+            <!-- Body -->
+            <div class="modal-body">
+                <!-- Log in -->
+                <div id="ConnectWithUsForm">
+                    <!-- Heading -->
+                    <div class="text-center mb-7">
+                        <h3 class="modal-title">Leave a request</h3>
+                    </div>
+                    <form>
+                        <div class="row gx-3">
+                            <div class="col-sm-12">
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden"
+                                           for="formEduSelect1">Class</label>
+                                    <select id="formEduSelect1" class="form-select form-select-lg"
+                                            name="education" aria-label="Education">
+                                        <option selected>English language</option>
+                                        <option>Music studio</option>
+                                        <option>Chess</option>
+                                        <option>Mathematics</option>
+                                        <option>Art workshop</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-sm-8">
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden" for="hireUsFormFirstNameEg1">Student's
+                                        name</label>
+                                    <input type="text" class="form-control form-control-lg"
+                                           name="hireUsFormFirstNameEg1" id="hireUsFormFirstNameEg1"
+                                           placeholder="Student's name" aria-label="Student's name">
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden"
+                                           for="formClassSelect1">Class</label>
+                                    <select id="formClassSelect1" class="form-select form-select-lg"
+                                            name="class" aria-label="Class">
+                                        <option selected>Class</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-3">
+                            <div class="col-sm-12">
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden" for="formParentsName1">Parent's
+                                        name</label>
+                                    <input type="text" class="form-control form-control-lg"
+                                           name="parentsName" id="formParentsName1"
+                                           placeholder="Parent's name" aria-label="Parent's name">
+                                </div>
+                                <!-- End Form -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
+                        <div class="row gx-3">
+                            <div class="col-sm-12">
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden" for="formPhone1">Phone</label>
+                                    <input type="text" class="form-control form-control-lg"
+                                           name="phone" id="formPhone1"
+                                           placeholder="+998(__)___-__-__" aria-label="Phone number">
+                                </div>
+                                <!-- End Form -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
+                        <div class="row gx-3">
+                            <div class="col-sm-12">
+                                <!-- Form -->
+                                <div class="mb-3">
+                                    <label class="form-label visually-hidden" for="formEmail1">Email</label>
+                                    <input type="email" class="form-control form-control-lg"
+                                           name="email" id="formEmail1"
+                                           placeholder="your@email.com" aria-label="Email">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">SEND</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- JS Global Compulsory -->
 <script src="./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
